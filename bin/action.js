@@ -14,9 +14,14 @@ const actionScript = (project_name, mode_install) => {
         shell.exec(`git clone https://github.com/MandaNyAina/reactts-starter-code ${path}/${project_name}`, { silent: true });
         console.log(chalk.green('Done'));
 
+        console.log(`🖨️  Configurations file`);
+        shell.exec(`docker-compose build`, { silent: true })
+        shell.cd(`${path}/${project_name}`);
+        shell.exec(`sed -i 's+/var/www/boilerplate-reactts+${path}/${project_name})+g' ${path}/${project_name}/docker-compose.yml`);
+        shell.exec(`sed -i 's+boilerplate-reactts+${project_name}+g' ${path}/${project_name}/.env`);
+
         console.log(`👨‍💻  Install dependencies`);
         console.log('---------------------------------');
-        shell.cd(`${path}/${project_name}`);
         switch (mode_install) {
             case 'Docker-compose':
                 shell.exec(`docker-compose run app npm install`);
