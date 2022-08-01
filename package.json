@@ -1,6 +1,6 @@
 {
   "name": "@mandanyaina/reactts-starter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React code base under Typescript and SCSS style sheet to quickly start a React sunglasses application",
   "main": "bin/cli.js",
   "bin": {
