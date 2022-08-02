@@ -16,7 +16,7 @@ functionality (clean code approach). Easy installation and deployment
 - Install my-project with npx
 
 ```bash
-  npm i @mandanyaina/reactts-starter
+  npm i -g @mandanyaina/reactts-starter
   reactts-starter
   ? Name of your project : < my-project-name>
   Choose the installation mode :  (Use arrow keys)
