@@ -13,7 +13,7 @@ functionality (clean code approach). Easy installation and deployment
 
 ## Installation
 
-- Install my-project with npx
+- Install my-project with npm
 
 ```bash
   npm i -g @mandanyaina/reactts-starter
