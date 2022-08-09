@@ -1,7 +1,6 @@
 #! /usr/bin/env node
 
 import inquirer from "inquirer";
-import runFunc from "./runFunc.js";
 import actionScript from "./action.js"
 
 const createApplication = async () => {
@@ -31,5 +30,4 @@ const getProjectName = () => {
   });
 };
 
-runFunc();
 await createApplication();

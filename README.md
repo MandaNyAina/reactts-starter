@@ -2,7 +2,7 @@
 # ReactTS Starter
 
 A React code base under Typescript and SCSS style sheet to quickly start a 
-React sunglasses application, with preinstalled UI libraries such as: 
+React application 😎, with preinstalled UI libraries such as: 
 [PrimeReact](https://www.primefaces.org/primereact/), 
 [PrimeFlex](https://www.primefaces.org/primeflex/), 
 [ReactToastify](https://www.npmjs.com/package/react-toastify). 
@@ -13,44 +13,44 @@ functionality (clean code approach). Easy installation and deployment
 
 ## Installation
 
-- Install my-project with npm
+- Create your project <my-project-name> with npm
 
-```bash
-  npm i -g @mandanyaina/reactts-starter
-  reactts-starter
-  ? Name of your project : < my-project-name>
-  Choose the installation mode :  (Use arrow keys)
-  ❯ Docker-compose 
-    Local npm 
-  cd my-project/
+```shell
+  $ npm i -g @mandanyaina/reactts-starter
+  $ reactts-starter
+    ? Name of your project : <my-project-name>
+    Choose the installation mode :  (Use arrow keys)
+    ❯ Docker-compose 
+      Local npm 
+  $ cd <my-project-name>/
 ```
 
-- Download from git
+- Download from git repository
 
-```bash
-  git pull https://github.com/MandaNyAina/reactts-starter-code <my-project>
-  cd my-project/
+```shell
+  $ git pull https://github.com/MandaNyAina/reactts-starter-code <my-project-name>
+  $ cd <my-project-name>/
 ```
 ## Running with docker compose
 
-```bash
-  cd my-project/
-  docker-compose run app npm start
+```shell
+  $ cd my-project/
+  $ docker-compose run app npm start
 ```
 ## Running Tests
 
 To run tests of format and lint, run the following command
 
-```bash
-  npm run format
-  npm run checkform
-  npm run lint
+```shell
+  $ npm run format
+  $ npm run checkform
+  $ npm run lint
 ```
 
 To run tests of format and lint, run the following command
 
-```bash
-  npm run test
+```shell
+  $ npm run test
 ```
 
 ## Environment Variables
