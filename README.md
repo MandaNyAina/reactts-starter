@@ -16,7 +16,7 @@ functionality (clean code approach). Easy installation and deployment
 - Create your project < my-project-name > with npm
 
 ```shell
-  $ npm i -g @mandanyaina/reactts-starter
+  $ npm i --location=global @mandanyaina/reactts-starter
   $ reactts-starter
     ? Name of your project : <my-project-name>
     Choose the installation mode :  (Use arrow keys)
