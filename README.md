@@ -2,7 +2,7 @@
 # ReactTS Starter
 
 A React code base under Typescript and SCSS style sheet to quickly start a 
-React application 😎, with preinstalled UI libraries such as: 
+React application, with preinstalled UI libraries such as: 
 [PrimeReact](https://www.primefaces.org/primereact/), 
 [PrimeFlex](https://www.primefaces.org/primeflex/), 
 [ReactToastify](https://www.npmjs.com/package/react-toastify). 
@@ -47,7 +47,7 @@ To run tests of format and lint, run the following command
   $ npm run lint
 ```
 
-To run tests of format and lint, run the following command
+To run unit test, run the following command
 
 ```shell
   $ npm run test

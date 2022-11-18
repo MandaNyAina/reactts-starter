@@ -32,7 +32,7 @@ const actionScript = (project_name, mode_install) => {
                 break;
 
             default:
-                throw "Bad choice";
+                throw new Error("Bad choice");
         }
 
         console.log(
