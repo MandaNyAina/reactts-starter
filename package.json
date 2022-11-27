@@ -1,7 +1,7 @@
 {
   "name": "@mandanyaina/reactts-starter",
-  "version": "1.0.9",
-  "description": "A React code base under Typescript and SCSS style sheet to quickly start a React sunglasses application",
+  "version": "1.0.10",
+  "description": "A React code base under Typescript and SCSS style sheet to quickly start a React application",
   "main": "bin/cli.js",
   "bin": {
     "reactts-starter": "bin/cli.js"
@@ -13,7 +13,7 @@
   "scripts": {
     "start": "node bin/cli.js"
   },
-  "keywords": ["cli", "reactts", "reactjs", "reactts-starter"],
+  "keywords": ["cli", "reactts", "react", "reactts-starter", "typescript", "react-cli", "react-typescript"],
   "author": "Manda Ny Aina ANDRIANAIVO",
   "license": "MIT",
   "dependencies": {
